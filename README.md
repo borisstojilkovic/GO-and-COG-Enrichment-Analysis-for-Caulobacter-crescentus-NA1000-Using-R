@@ -1,4 +1,5 @@
-# GO-and-COG-Enrichment-Analysis-for-Caulobacter-crescentus-NA1000-Using-R
+
+# GO and COG Enrichment Analysis for *Caulobacter crescentus* NA1000
 
 ##  Overview
 
@@ -33,8 +34,9 @@ project/
 
 - **COG enrichment analysis**  
   - Uses `goseq` to test enrichment of COG functional categories  
-  - Generates a bubble plot (`_COG_bubble_plot.pdf`), an Excel file (`_COG_results.xlsx`), and a pie chart showing the proportion of DEGs in each COG (`_COG_DEG_PieChart.pdf`)
-
+  - Prompts you to choose whether to plot the top 10 enriched COG categories or only significant categories (p < 0.05)# change lines (63,65,67,and 90) if plotting something different
+  - Uses `goseq` to test enrichment of COG functional categories  
+  - Generates a bubble plot (_COG_bubble_plot.pdf), an Excel file (_COG_results.xlsx), and a pie chart (_COG_DEG_PieChart.pdf) showing the distribution of DEGs across COG categories
 ---
 
 ##  How to Run the Scripts
